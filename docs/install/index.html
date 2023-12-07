@@ -1,0 +1,75 @@
+
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><nonogram-editor> ⌲ Install</title>
+    <link rel="stylesheet" href="../docs.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Mono">
+    <link href="../prism-okaidia.css" rel="stylesheet" />
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="/node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../index.bundled.js"></script>
+  </head>
+  <body>
+    
+<header>
+  <div class="logo-container">
+    <svg
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg"
+      width="50"
+      height="50"
+      viewBox="0 0 13.229166 13.229167"
+      version="1.1"
+      id="svg8">
+      <g
+        id="layer1">
+        <path
+          id="rect833"
+          fill="var(--color-corazon, #fb0366)"
+          d="M 10,0 V 10 H 0 V 20 30 H 10 V 40 H 20 V 50 H 30 V 40 H 40 V 32.664062 30 H 50 V 20 10 H 40 V 0 H 30 V 10 H 20 V 0 Z"
+          transform="scale(0.26458333)" />
+      </g>
+    </svg>
+  </div>
+
+  <h1>&lt;nonogram-editor></h1>
+  <h2>A simple level editor component for nonograms.</h2>
+</header>
+    
+<nav>
+  <a href="../">Home</a>
+  <a href="../examples/">Examples</a>
+  <a href="../api/">API</a>
+  <a href="">Install</a>
+</nav>
+    <div id="main-wrapper">
+      <main>
+        <h1>Install</h1>
+<p><code>&lt;nonogram-editor&gt;</code> is distributed on npm, so you can install it locally or use it via npm CDNs like unpkg.com.</p>
+<h2>Local Installation</h2>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i nonogram-editor</code></pre>
+<h2>CDN</h2>
+<p>npm CDNs like <a href="">unpkg.com</a> can directly serve files that have been published to npm. This works great for standard JavaScript modules that the browser can load natively.</p>
+<p>For this element to work from unpkg.com specifically, you need to include the <code>?module</code> query parameter, which tells unpkg.com to rewrite &quot;bare&quot; module specifiers to full URLs.</p>
+<h3>HTML</h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>module<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://unpkg.com/nonogram-editor?module<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<h3>JavaScript</h3>
+<pre class="language-html"><code class="language-html">import {MyElement} from 'https://unpkg.com/nonogram-editor?module';</code></pre>
+
+      </main>
+    </div>
+    
+<footer>
+  <div class="container">
+    Made with ❤ by <a href="https://christianduarte.me">Christian Duarte</a>
+  </div>
+</footer>
+  </body>
+</html>
